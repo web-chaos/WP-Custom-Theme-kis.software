@@ -1,0 +1,1 @@
+<div class="article2__content"><?php echo get_sub_field( 'description' ); ?></div>

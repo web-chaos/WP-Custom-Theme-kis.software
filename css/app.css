@@ -1,0 +1,454 @@
+.wpcf7-form {
+    max-width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+}
+
+.page-template-page-contact .wpcf7-form .form-item__input:nth-child(8),
+.wpcf7-form .form__bottom{
+    grid-column: 1 / -1;
+}
+
+.wpcf7-form-control {
+  background: rgba(0,0,0,0);
+  border-radius: 0!important;
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #0075ff;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 20px;
+  color: var(--blue)
+}
+.wpcf7-form-control--small {
+  padding-bottom: 9.5px
+}
+.wpcf7-form-control::-webkit-input-placeholder {
+  color: var(--blue);
+  white-space: pre-line;
+  position: relative
+}
+.wpcf7-form-control:-ms-input-placeholder {
+  color: var(--blue);
+  white-space: pre-line;
+  position: relative
+}
+.wpcf7-form-control::-ms-input-placeholder {
+  color: var(--blue);
+  white-space: pre-line;
+  position: relative
+}
+.wpcf7-form-control::placeholder {
+  color: var(--blue);
+  white-space: pre-line;
+  position: relative
+}
+.wpcf7-form-control._form-focus {
+  outline: 0
+}
+.wpcf7-form-control._form-error {
+  color: red;
+  border-color: red
+}
+.wpcf7-form-control._form-error::-webkit-input-placeholder {
+  color: red
+}
+.wpcf7-form-control._form-error:-ms-input-placeholder {
+  color: red
+}
+.wpcf7-form-control._form-error::-ms-input-placeholder {
+  color: red
+}
+.wpcf7-form-control._form-error::placeholder {
+  color: red
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden])::-webkit-input-placeholder {
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden]):-ms-input-placeholder {
+  -ms-transition: opacity .3s;
+  transition: opacity .3s
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden])::-ms-input-placeholder {
+  -ms-transition: opacity .3s;
+  transition: opacity .3s
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden])::placeholder {
+  transition: opacity .3s
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden]):focus::-webkit-input-placeholder {
+  opacity: 0
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden]):focus:-ms-input-placeholder {
+  opacity: 0
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden]):focus::-ms-input-placeholder {
+  opacity: 0
+}
+.wpcf7-form-control[placeholder]:not([data-placeholder-nohiden]):focus::placeholder {
+  opacity: 0
+}
+textarea.wpcf7-form-control {
+    resize: none;
+    padding-bottom: 0
+}
+
+.wpcf7-spinner{
+    display: none !important;
+}
+
+form input.wpcf7-form-control.wpcf7-submit{
+    padding: 8px 12px 8px 65px;
+    background: var(--blue);
+    border-radius: 30px !important;
+    height: 57px;
+    background-image: url(../img/form-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    width: auto;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.form__bottom{
+    margin-top: 0;
+}
+
+.wpcf7-form [data-name^="date-"]{
+    position: relative;
+}
+
+.wpcf7-form [data-name^="date-"]:after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 23px;
+    background-image: url(../img/date.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+.wpcf7-form [data-name^="date-"] input{
+    appearance: none;
+    --webkit-appearance: none;
+}
+
+.wpcf7-form .intl-tel-input.separate-dial-code .selected-flag,
+.wpcf7-form .intl-tel-input.separate-dial-code.iti-sdc-2 .selected-flag{
+    font-size: 16px;
+    color: var(--blue);
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 6px 0 8px;
+}
+
+.wpcf7-form .country-list{
+    z-index: 2;
+    list-style: none;
+    margin: 0 0 0 -1px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border: 1px solid var(--blue);
+    padding: 10px;
+    white-space: nowrap;
+    max-height: 200px;
+    overflow-y: scroll;
+    max-width: 420px;
+}
+.wpcf7-form ul.country-list li.country{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    outline: 0;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.wpcf7-spinner,
+.wpcf7 form.invalid .wpcf7-response-output{
+  display: none !important;
+}
+
+.wpcf7 .wpcf7-not-valid-tip {
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  top: 110%;
+}
+
+.wpcf7 form.sent .wpcf7-response-output{
+  margin: 0;
+  grid-column: 1 / -1;
+  padding: 25px;
+  background: var(--blue);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: 0;
+}
+
+.wpcf7-form [data-name^="date-"]:after,
+.wpcf7-form .selected-flag{
+  background-color: transparent !important;
+}
+
+
+@media (max-width: 1024px){
+  .wpcf7-form {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+.develop__list{
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 100px;
+}
+
+@media (max-width: 768px){
+  .develop__list{
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+  }
+}
+
+.faq__spollers{
+  width: 100%;
+}
+
+.menu__language{
+  
+}
+
+.menu__language > li {
+  position: relative;
+}
+
+.menu__language > li:hover a:after {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.menu__language > li > a:after {
+    content: "";
+    flex: 0 0 24px;
+    height: 24px;
+    width: 24px;
+    transition: all .3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/icons/arrow.svg) center / 100% 100% no-repeat;
+}
+
+.menu__language > li > a{
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu__language > li:hover .sub-menu{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+.menu__language > li .sub-menu{
+  position: absolute;
+  min-width: 100%;
+  left: 0;
+  border-radius: 8px;
+  background: #f6f6f6;
+  top: calc(100% + 6.5px);
+  padding: 4px 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.35s;
+}
+
+.menu__language .sub-menu a{
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: #000;
+  display: block;
+  padding: 4px 16px;
+  font-size: 18px;
+}
+
+.menu__language--mobile .sub-menu .current-lang a,
+.menu__language .sub-menu .current-lang a,
+.menu__language .sub-menu a:hover{
+  color: var(--blue);
+  opacity: 1;
+}
+
+.menu__language--mobile > li > a{
+  display: none;
+}
+
+.menu__language--mobile .sub-menu{
+  display: flex;
+  gap: 29px;
+}
+
+@media (max-width: 1166px) {
+    .menu__language > li > a{
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu__language {
+        display: none;
+    }
+}
+
+.tel-hidden:not(.active){
+  display: none;
+}
+
+.show-contact.hidden {
+  display: none;
+}
+
+
+
+.messenger {
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 60px;
+    height: 260px;
+    z-index: 3;
+}
+
+.messenger-btn {
+    padding: 14px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #0075FF;
+    position: absolute;
+    right: 9px;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.messenger-btn img {
+    width: 32px;
+    height: 32px;
+}
+
+.messenger-links {
+    position: absolute;
+    right: 39px;
+    top: 100px;
+    height: 240px;
+    transform: scale(0);
+    transform-origin: 100% 50%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 0;
+}
+
+.messenger-links.show {
+    right: 18px;
+    top: -12px;
+    transform: scale(1);
+}
+
+.messenger-links a {
+    width: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.messenger-links img {
+    max-width: 40px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.messenger-links a:hover img {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.dark .scroll-top {
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #ccc;
+    background-color: #0075FF;
+}
+.light .scroll-top {
+    box-shadow: inset 0 0 0 2px #0075FF;
+    color: #0075FF;
+    background-color: #ffffff;
+}
+.scroll-top {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    position: fixed;
+    z-index: 50;
+    padding: 0;
+    right: 35px;
+    bottom: 19px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    border: none;
+}
+.scroll-top.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.scroll-top .icon-tabler-arrow-up {
+    position: absolute;
+    stroke-width: 2px;
+}
+
+.dark .scroll-top .icon-tabler-arrow-up{
+    stroke: #fff;
+}
+.light .scroll-top .icon-tabler-arrow-up{
+    stroke: #0075FF;
+}
+
+.scroll-top:hover {
+    color: #075ec4;
+}

@@ -1,0 +1,41 @@
+.acf-tooltip.acf-fc-popup{
+    max-width: 100%;
+}
+
+.acf-tooltip.acf-fc-popup ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 1280px){
+    .acf-tooltip.acf-fc-popup ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 960px){
+    .acf-tooltip.acf-fc-popup ul{
+        grid-template-columns: repeat(1, 1fr);
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    /* Стилизация скроллбара для списка */
+    .acf-tooltip.acf-fc-popup ul::-webkit-scrollbar {
+        width: 12px; /* Ширина скроллбара */
+    }
+
+    .acf-tooltip.acf-fc-popup ul::-webkit-scrollbar-track {
+        background-color: #1D2939; /* Цвет фона трека */
+    }
+
+    .acf-tooltip.acf-fc-popup ul::-webkit-scrollbar-thumb {
+        background-color: #4A5568; /* Цвет ползунка скроллбара, светлее на 30% */
+        border-radius: 6px; /* Закругление краев */
+    }
+
+    .acf-tooltip.acf-fc-popup ul::-webkit-scrollbar-thumb:hover {
+        background-color: #6B7688; /* Цвет ползунка при наведении, светлее на 40% */
+    }
+}

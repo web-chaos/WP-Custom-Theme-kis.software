@@ -1,0 +1,282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kiss v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-08 01:25+0000\n"
+"PO-Revision-Date: 2024-09-08 01:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: uk\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#: 404.php:31
+msgid "oops!"
+msgstr ""
+
+#: 404.php:34
+msgid "looks like our website got lost in the digital space"
+msgstr ""
+
+#: 404.php:37
+msgid ""
+"<p>You have reached this page due to an error on our server.</p><p>We "
+"apologise for the inconvenience caused, we are actively working towards "
+"resolving the issue.</p>"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:72
+msgid "We will promptly respond to your requests from 9:00 - 18:00 local time."
+msgstr ""
+
+#: footer.php:77 footer.php:134 page-contact.php:49
+msgid "Business Phone UA:"
+msgstr ""
+
+#: footer.php:79
+msgid "Show phone number"
+msgstr ""
+
+#: footer.php:86 footer.php:116 page-contact.php:55
+msgid "Business Phone USA:"
+msgstr ""
+
+#: footer.php:96 footer.php:142 page-contact.php:65
+msgid "Kiev office"
+msgstr "Київський офіс"
+
+#: footer.php:98
+msgid "Show address"
+msgstr ""
+
+#: footer.php:105 footer.php:124 page-contact.php:71
+msgid "Address"
+msgstr ""
+
+#: footer.php:153
+msgid "LLC Copyright"
+msgstr ""
+
+#: footer.php:197
+msgid "Chat with manager"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary"
+msgstr ""
+
+#: functions.php:53
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Privacy policy"
+msgstr ""
+
+#: functions.php:55
+msgid "Language"
+msgstr ""
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/kiss-comment-form.php:5
+msgid "Add your comment"
+msgstr ""
+
+#: inc/kiss-comment-form.php:8
+msgid "Enter your Name"
+msgstr ""
+
+#: inc/kiss-comment-form.php:9
+msgid "Enter your Email"
+msgstr ""
+
+#: inc/kiss-comment-form.php:12
+msgid "Your Comment"
+msgstr ""
+
+#: inc/kiss-comment-form.php:14
+msgid "Add comment"
+msgstr ""
+
+#: inc/kiss-customizer.php:9
+msgid "Custom logo light"
+msgstr ""
+
+#: inc/kiss-customizer.php:21
+msgid "SVG logo"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single-project.php:56
+msgid "our projects/"
+msgstr ""
+
+#: single-project.php:99 template-parts/blocks/our_projects.php:57
+#: template-parts/blocks/seo/seo_our_projects.php:40
+msgid "More projects"
+msgstr ""
+
+#: single.php:50
+msgid "Other Blog Articles"
+msgstr ""
+
+#: template-parts/blocks/how_it_works.php:29
+msgid "Bonus"
+msgstr ""
+
+#: template-parts/blocks/popup_form.php:8
+msgid "Send Message"
+msgstr ""
+
+#: template-parts/blocks/project/info_project.php:6
+msgid "Location"
+msgstr ""
+
+#: template-parts/blocks/project/info_project.php:17
+msgid "Branch"
+msgstr ""
+
+#: template-parts/blocks/project/info_project.php:26
+msgid "Technologies"
+msgstr ""
+
+#: template-parts/blocks/project/info_project.php:42
+msgid "Solution"
+msgstr ""
+
+#: template-parts/blocks/project/info_project.php:52
+msgid "Terms"
+msgstr ""
+
+#: template-parts/blocks/seo/seo_working_process.php:61
+msgid "Time to deliver"
+msgstr ""
+
+#: template-parts/blocks/seo/seo_working_process.php:64
+msgid "~"
+msgstr ""
+
+#: template-parts/blocks/services.php:46
+msgid "Details"
+msgstr ""
+
+#: template-parts/blocks/steps.php:11
+msgid "final step!"
+msgstr ""
+
+#: template-parts/content-article.php:59
+#: template-parts/content-blog-main.php:51
+msgid "read more"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
